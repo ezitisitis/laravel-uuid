@@ -2,7 +2,7 @@
     "name": "ezitisitis/laravel-uuid",
     "description": "This package provides fast and furious UUID as primary key implementation instead of autoincrement",
     "type": "library",
-    "license": "GNU AGPLv3",
+    "license": "AGPL-3.0-or-later",
     "autoload": {
         "psr-4": {
             "EzitisItIs\\LaravelUuid\\": "src/"
