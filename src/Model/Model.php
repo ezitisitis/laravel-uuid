@@ -1,0 +1,21 @@
+<?php
+
+namespace EzitisItIs\LaravelUuid\Model;
+
+use Illuminate\Support\Str;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+
+/**
+ * Class Model
+ */
+class Model extends EloquentModel
+{
+    public function __construct(array $attributes = [])
+    {
+        parent::__construct($attributes);
+
+        if($this->incrementing === false) {
+            $this->{$this->getKeyName()} = Str::uuid()->toString();
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "ezitisitis/laravel-uuid",
+    "description": "This package provides fast and furious UUID as primary key implementation instead of autoincrement",
+    "type": "library",
+    "license": "GNU AGPLv3",
+    "autoload": {
+        "psr-4": {
+            "EzitisItIs\\LaravelUuid\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marks Bogdanovs",
+            "email": "mail@ezitisitis.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "php": "^8.0.0",
+      "laravel/framework": "^8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
