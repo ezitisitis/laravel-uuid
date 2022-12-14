@@ -24,12 +24,6 @@ use EzitisItIs\LaravelUuid\Model;
 
 class MyAwesomeModel extends Model
 {
-    /**
-	 * Sets the UUID as defaults.
-	 *
-	 * @var bool
-	 */
-	public $incrementing = false;
 ```
 
-If you leave `$incrementing = true;` then it will continue to use incrementing ID.
+If you set `$incrementing = true;` then it will continue to use incrementing ID.
