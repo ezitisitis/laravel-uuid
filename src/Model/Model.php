@@ -29,7 +29,7 @@ class Model extends EloquentModel
         parent::__construct($attributes);
 
         if ($this->incrementing === false) {
-            $this->{$this->getKeyName()} = Str::uuid()->toString();
+            $this->{$this->getKeyName()} = \Illuminate\Support\Str::ulid()->toRfc4122();
         }
     }
 }

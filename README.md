@@ -29,3 +29,7 @@ class MyAwesomeModel extends Model
 ```
 
 If you set `$incrementing = true;` then it will continue to use incrementing ID.
+
+## Credits
+
+- [Marks Bogdanovs](https://www.ezitisitis.com)

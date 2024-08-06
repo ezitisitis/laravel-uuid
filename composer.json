@@ -16,7 +16,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-      "php": "^8.0.0",
-      "laravel/framework": "^8||^9||^10||^11"
+      "php": "^8.2.0",
+      "laravel/framework": "^10||^11"
     }
 }
